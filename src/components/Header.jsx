@@ -1,3 +1,4 @@
+import React from 'react'
 import PropTypes from 'prop-types'
 
 function Header({ text, bgColor, textColor }) {
@@ -7,7 +8,7 @@ function Header({ text, bgColor, textColor }) {
   }
 
   return (
-    <header style={ headerStyles}>
+    <header style={ headerStyles }>
       <div className="container">
         <h2>
           { text }
